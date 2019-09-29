@@ -1,68 +1,22 @@
-# Initial page
+# 产品简介
 
-{% api-method method="get" host="https://api.cakes.com" path="/v1/cakes/:id" %}
-{% api-method-summary %}
-Get Cakes
-{% endapi-method-summary %}
+{% hint style="success" %}
+## 简介
+{% endhint %}
 
-{% api-method-description %}
-This endpoint allows you to get free cakes.
-{% endapi-method-description %}
+腾讯多语言智能客服，是由腾讯国际业务团队研发，通过AI深度学习算法，打造的企业服务工具。支持中文、英文、泰文等多语言，服务国际化客户，依托腾讯强大的技术支撑，为企业提升效率，节约成本，同时通过将人机对话的数据进行归类分析，为企业提供决策数据。
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+{% hint style="success" %}
+## 核心功能
+{% endhint %}
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+智能机器人主要有三个主要的功能模块：**1.智能机器人**，基于自然语言识别技术和智能训练的机器人，能够精确解答用户的常见问题，减少人工服务的需求，降低企业的成本。**2.人工客服**，在机器人无法解答用户的问题，或者用户主动发起人工服务时，客服工作台可以支持客服人员进行人工回复，快速解决用户难题。**3.统计数据，**可以通过后台查看机器人和人工客服数据，及时了解问题处理的情况。并通过后台的数据归类分析，为决策提供依据，进行精准营销和问题并发的前期准备。
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
-{% endapi-method-parameter %}
+{% hint style="success" %}
+## 我们的优势
+{% endhint %}
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Cake successfully retrieved.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "name": "Cake's name",
-    "recipe": "Cake's recipe name",
-    "cake": "Binary cake"
-}
-```
-{% endapi-method-response-example %}
-
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-Could not find a cake matching this query.
-{% endapi-method-response-example-description %}
-
-```javascript
-{
-    "message": "Ain't no cake like that."
-}
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+ **1.多语言**，支持中文、英文、泰文等多语言，后续将完善日语、马来语、汉语等功能。**2.智能**，大数据深度学习以及NPL技术为智能客服提供强有力的技术支撑。**3.高效**，相似问题自动生成，问题数据归类分析，提升效率，为企业节约成本。**4.便捷**，快速便捷的多渠道接入方式，标准化执行方案，无需更多开发，方便易用。
 
 
 
