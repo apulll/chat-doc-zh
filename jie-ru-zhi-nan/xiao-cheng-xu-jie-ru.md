@@ -12,7 +12,7 @@
 
 ![](../.gitbook/assets/556677.png)
 
-1. [点击](https://mp.weixin.qq.com/)：开发设置-》消息推送-》启用。 详见：[微信小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web)。相        关填写参数对照如下：
+1. [点击](https://mp.weixin.qq.com/)：开发设置-》消息推送-》启用。 详见：[微信小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web)。相关填写参数对照如下：
 
 ```text
 **1 URL(服务器地址)**
