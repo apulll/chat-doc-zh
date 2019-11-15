@@ -6,13 +6,13 @@
 
 * **操作指引：系统管理 -&gt; 机器人配置 -&gt; 移动网站接入**
 
-![](../.gitbook/assets/screencapture-localhost-3000-2019-11-14-14_19_15.png)
+![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbotdev-2019-11-15-14_07_46.png)
 
 企业可以根据自己的需要将链接直接嵌入在网页的一些位置上。即可直接跳转到客服咨询页面
 
 **\[ 移动网页接入样例 \]（点击智能客服后为对话页面）**
 
-![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbot-dev-h5-2019-11-14-11_29_30.png)
+![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbot-h5-2019-11-15-14_08_56.png)
 
 ## 2. H5页面嵌入iOS App方案 <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;ios-app&#x65B9;&#x6848;"></a>
 
