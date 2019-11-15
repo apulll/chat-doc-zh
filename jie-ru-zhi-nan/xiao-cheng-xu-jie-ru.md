@@ -37,7 +37,7 @@
 
 ```
 
-![](../.gitbook/assets/screencapture-mp-weixin-qq-wxopen-devprofile-2019-11-14-10_12_33.png)
+![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32%20%281%29.jpg)
 
 以上数据填写完成后，将上面需要复制的信息填入如下代码中并复制，提供给我们的开发人员
 
