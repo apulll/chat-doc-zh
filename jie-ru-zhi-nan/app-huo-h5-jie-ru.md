@@ -6,7 +6,7 @@
 
 * **操作指引：系统管理 -&gt; 机器人配置 -&gt; 移动网站接入**
 
-![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbotdev-2019-11-15-14_07_46.png)
+![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbotdev-2019-11-15-14_07_46.jpg)
 
 企业可以根据自己的需要将链接直接嵌入在网页的一些位置上。即可直接跳转到客服咨询页面
 
