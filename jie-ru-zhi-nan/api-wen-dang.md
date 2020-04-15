@@ -2,11 +2,11 @@
 
 {% api-method method="post" host="http://chatbot.myqcloud.com" path="/dev/svrapi/ask" %}
 {% api-method-summary %}
-msg for voice app
+msg for chat
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.
+This endpoint allows to a chat with ai robot
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -33,7 +33,8 @@ create timestamp, e.g. 1586936603
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sign" type="string" required=true %}
-md5sum\(${secretKey}&createTs=${createTs}&language=${language}&productID=${productID}&text=${text}&userID=${userID}\)
+md5sum\(${secretKey}&ksort\(${args}\)   
+eg. md5sum\(${secretKey}&createTs=${createTs}&language=${language}&productID=${productID}&text=${text}&userID=${userID}\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
