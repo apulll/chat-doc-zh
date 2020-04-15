@@ -33,7 +33,7 @@ create timestamp, e.g. 1586936603
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sign" type="string" required=true %}
-md5sum\(${secretKey}&${productID}&{userID}&${text}&$md5sum\(${secretKey}&createTs=${createTs}&language=${language}&productID=${productID}&text=${text}&userID=${userID}\)createTs}\)
+md5sum\(${secretKey}&createTs=${createTs}&language=${language}&productID=${productID}&text=${text}&userID=${userID}\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
