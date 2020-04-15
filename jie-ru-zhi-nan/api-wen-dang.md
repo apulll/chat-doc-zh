@@ -1,6 +1,6 @@
 # API 文档
 
-{% api-method method="post" host="http://chatbot.myqcloud.com" path="/chatbotapi/ask" %}
+{% api-method method="post" host="http://chatbot.myqcloud.com" path="/dev/svrapi/ask" %}
 {% api-method-summary %}
 msg for voice app
 {% endapi-method-summary %}
@@ -12,6 +12,10 @@ This endpoint allows you to get free cakes.
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-body-parameters %}
+{% api-method-parameter name="language" type="string" required=false %}
+language for this productID,zh\|en
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="productID" type="string" required=true %}
 product id
 {% endapi-method-parameter %}
@@ -25,11 +29,11 @@ user question
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="createTs" type="integer" required=true %}
-create timestamp
+create timestamp, e.g. 1586936603
 {% endapi-method-parameter %}
 
 {% api-method-parameter name="sign" type="string" required=true %}
-md5sum\(${secretKey}&${productID}&{userID}&${text}&${createTs}\)
+md5sum\(${secretKey}&${productID}&{userID}&${text}&$md5sum\(${secretKey}&createTs=${createTs}&language=${language}&productID=${productID}&text=${text}&userID=${userID}\)createTs}\)
 {% endapi-method-parameter %}
 {% endapi-method-body-parameters %}
 {% endapi-method-request %}
@@ -44,8 +48,8 @@ Cake successfully retrieved.
 {
   "code": 0,
   "msg": "",
-  "replyText": "replyType=1,reply content",
   "replyType": 0,
+  "replyText": "replyType=1,reply content",
   "replyMenu": [
     "replyType=2,reply list content",
     "replyType=2,reply list content"
@@ -62,9 +66,9 @@ Could not find a cake matching this query.
 ```
 {
   "code": 1,
-  "msg": "",
-  "replyText": "",
+  "msg": "err msg",
   "replyType": 0,
+  "replyText": "",
   "replyMenu": []
 }
 ```
