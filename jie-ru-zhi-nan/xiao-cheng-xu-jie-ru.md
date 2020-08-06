@@ -8,7 +8,7 @@
 
 In order to use the customer service function of WeChat mini-program, you should take following steps:
 
-1. Please log into WeChat mini-program management background first and go to Development settings --&gt; Developer ID --&gt; copy AppID \(mini-program ID\) and AppSecret \(mini-program Key\).
+1.Please log into WeChat mini-program management background first and go to Development settings --&gt; Developer ID --&gt; copy AppID \(mini-program ID\) and AppSecret \(mini-program Key\).
 
 ![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32.jpg)
 
