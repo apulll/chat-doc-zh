@@ -1,10 +1,10 @@
 # Product Description
 
 {% hint style="success" %}
-## 简介
+## Introduction
 {% endhint %}
 
-腾讯多语言智能客服，是由腾讯国际业务团队研发，通过AI深度学习算法，打造的企业服务工具。支持中文、英文、泰文等多语言，服务国际化客户，依托腾讯强大的技术支撑，为企业提升效率，节约成本，同时通过将人机对话的数据进行归类分析，为企业提供决策数据。
+Tencent Multilingual Intelligent Customer Service is an enterprise service tool developed by Tencent International Business Group based on advanced AI deep learning algorithm. It supports Chinese, English, Thai and other languages to serve international customers. Relying on Tencent's strong technical foundation, it helps enterprises to improve efficiency and save costs. Also, it can classify and analyze man-machine dialogue, providing data for decision-makers.
 
 {% hint style="success" %}
 ## 核心功能
