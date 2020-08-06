@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Product Description](README.md)
+* [接入指南](jie-ru-zhi-nan/README.md)
+  * [小程序接入](jie-ru-zhi-nan/xiao-cheng-xu-jie-ru.md)
+  * [APP或H5接入](jie-ru-zhi-nan/app-huo-h5-jie-ru.md)
+  * [API 文档](jie-ru-zhi-nan/api-wen-dang.md)
 * [知识库管理](untitled-1/README.md)
   * [知识库](untitled-1/zhi-shi-ku.md)
   * [智能训练](untitled-1/zhi-neng-xun-lian.md)
