@@ -1,45 +1,45 @@
-# 小程序接入
+# Mini-program
 
-### 微信小程序接入
+### WeChat miniprogram
 
-> 如果您已拥有一个通过微信认证的微信小程序，只需将您的微信小程序绑定到我们的Chatbot系统，就能够利用智能客服机器人轻松处理来自微信用户的咨询。
+> If you already have a WeChat mini-program certified by WeChat, just bind your WeChat mini-program to our Chatbot system, and you can easily handle inquiries from WeChat users with intelligent customer service robots.
 
-#### 接入方式一
+#### Access process
 
-* 在微信小程序中使用小程序自带的客服功能，需要做如下几步:
+In order to use the customer service function of WeChat mini-program, you should take following steps:
 
-1. 请先登录微信小程序管理后台，并跳转到 开发设置-》开发者ID-》复制 AppID\(小程序ID\) 和 AppSecret\(小程序密钥\) 。
+1. Please log into WeChat mini-program management background first and go to Development settings --&gt; Developer ID --&gt; copy AppID \(mini-program ID\) and AppSecret \(mini-program Key\).
 
 ![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32.jpg)
 
-1. [点击](https://mp.weixin.qq.com/)：开发设置-》消息推送-》启用。 详见：[微信小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web)。相关填写参数对照如下：
+2. Click: Development Settings --&gt;Message Push --&gt; Start. For details, please refer to [WeChat mini-program Development Document](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web). See our reference sample below:
 
 ```text
-**1 URL(服务器地址)**
+**1 URL**
 
-稍后填写
+///
 
-**2 Token(令牌)**
+**2 Token**
 
-请自行填写并复制
+please fill in or copy
 
-**3 EncodingAESKey(消息加密密钥)**
+**3 EncodingAESKey**
 
-请自行填写或选择随机生成，并复制
+please fill in or choose randomly generate
 
-**4 消息加密方式** 
+**4 Message encryption** 
 
-选择 "兼容模式"
+choose "Compatible Mode"
 
-**5 数据格式 **
+**5 Data format **
 
-选择 "JSON"
+choose "JSON"
 
 ```
 
 ![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32%20%281%29.jpg)
 
-以上数据填写完成后，将上面需要复制的信息填入如下代码中并复制，提供给我们的开发人员
+After finishing the above process, please fill in the following code and provide them to our developers.
 
 ```text
 AppID:
@@ -48,17 +48,15 @@ Token:
 EncodingAESKey:
 ```
 
-开发人员稍后会返回一串URL地址，并将其填写到  开发设置-》消息推送-》URL\(服务器地址\) 中，填写完毕后点击保存即可
+Our developers will return a series of URL address later on, please fill the URL in  Development Settings --&gt;Message Push --&gt; URL. Then click save.
 
-2. 添加微信小程序客服按钮到已有的微信小程序中，并将我们提供的 `productId` 填入，示例代码如下:
+3. Add the WeChat mini-program customer service button to the existing WeChat mini-program and fill in the productId we provided. The sample code is as follows:
 
 ```text
 <button open-type="contact" session-from='{"productID":"723de070-ade3-11e9-a9b7-8d4c0de10ac5","nickName":"{{nickName}}", "avatarUrl":"{{avatarUrl}}"}'>进入客服会话</button>
 ```
 
-3. 准备工作完成，可以开始使用客服系统
+4. The preparation work is done and you can start to use the customer service system.
 
-**接入方式二**
-
-暂无
+\*\*\*\*
 
