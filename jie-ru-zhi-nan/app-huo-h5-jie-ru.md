@@ -139,7 +139,7 @@ private class MyWebChromeClient extends WebChromeClient {
 }
 ```
 
-1. 在页面的onActivityResult回调里面处理传回来的图片uri
+3.Process the returned picture uri in the onActivityResult callback of the page.
 
 ```text
 @Override
@@ -174,11 +174,11 @@ public void onActivityResult(int requestCode, int resultCode, Intent data) {
 }
 ```
 
-### 3.2. 注意事项 <a id="&#x6CE8;&#x610F;&#x4E8B;&#x9879;"></a>
+### 3.2. Notes <a id="&#x6CE8;&#x610F;&#x4E8B;&#x9879;"></a>
 
-在Android5.0 以及以上的系统，当WebView加载的链接为Https开头，但是链接里面的内容，比如图片为Http链接，这时候，图片就会加载不出来，出现图裂。
+In Android5.0 and above systems, when the link loaded by WebView starts with Https, but the contents of the link, such as the picture, are Http links, then the picture will not be loaded and the picture will be cracked.
 
-解决：在webview加载页面之前，即初始化的时候，设置加载模式为混合模式（`MIXED_CONTENT_COMPATIBILITY_MODE = 2`） 如：
+Solution：Set the loading mode to mixed mode \(MIXED\_CONTENT\_COMPATIBILITY\_MODE = 2\) before web-view loads the page \( at initialization time\), for example:
 
 ```text
 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
