@@ -10,6 +10,8 @@ In order to use the customer service function of WeChat mini-program, you should
 
 1.Please log into WeChat mini-program management background first and go to Development settings --&gt; Developer ID --&gt; copy AppID \(mini-program ID\) and AppSecret \(mini-program Key\).
 
+**Noted:** If there is a "Reset" button here, do not reset. You need to ask the person who obtained the AppSecret before to ask for the AppSecret. If reset, the previously acquired AppSecret will be invalidated.
+
 ![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32.jpg)
 
 2. Click: Development Settings --&gt;Message Push --&gt; Start. For details, please refer to [WeChat mini-program Development Document](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web). See our reference sample below:

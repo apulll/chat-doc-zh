@@ -10,17 +10,15 @@ If you have your own designed web page icons/styles/buttons, you can also embed 
 
 You can embed the link directly in your own web page according to your needs, then you can click the button and directly jump to the customer service page.
 
-\[Mobile Web Access Sample\]
+\[Example\]
 
 ![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbot-h5-2019-11-15-14_08_56.png)
 
-## 2. H5 page embeddingH5页面嵌入iOS App方案 <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;ios-app&#x65B9;&#x6848;"></a>
+## 2. H5 page embedding in iOS <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;ios-app&#x65B9;&#x6848;"></a>
 
-Embedding iOS App Scheme in H5 Page
+### 2.1. Configuration <a id="&#x5DE5;&#x7A0B;&#x914D;&#x7F6E;"></a>
 
-### 2.1. 工程配置 <a id="&#x5DE5;&#x7A0B;&#x914D;&#x7F6E;"></a>
-
-在Xcode工程中Info.plist文件中添加**支持HTTP**和**相机使用权限**
+Add permission of camera and HTTP usage in Info.plist document.
 
 ```text
     <key>NSCameraUsageDescription</key>
@@ -32,9 +30,9 @@ Embedding iOS App Scheme in H5 Page
     </dict>
 ```
 
-### 2.2. UI组件 <a id="ui&#x7EC4;&#x4EF6;"></a>
+### 2.2. UI component <a id="ui&#x7EC4;&#x4EF6;"></a>
 
-推荐使用 WKWebView\(iOS 8.0+\)，且使用编码的方式创建，参照代码：
+Recommend to use WKWebView \(iOS 8.0 +\) and create it with encoding. See our reference:
 
 ```text
 var webView: WKWebView!
@@ -52,30 +50,30 @@ override func loadView() {
 }
 ```
 
-_如果为了兼容更低版本的操作系统，请使用 UIWebView_
+Please use UIWebView if you want to be compatible with lower versions of the operating system.
 
-### 2.3. 补充 <a id="&#x8865;&#x5145;"></a>
+### 2.3. Complement <a id="&#x8865;&#x5145;"></a>
 
-如果Xcode 控制台输出如下log：
+If the Xcode console outputs the following log:
 
 ```text
 [discovery] errors encountered while discovering extensions: Error Domain=PlugInKit Code=13 "query cancelled" UserInfo={NSLocalizedDescription=query cancelled}
 ```
 
-处理方式：
+Handling：
 
-* 忽略，不会影响组件的使用\(推荐\)
-* 修改工程设置
-  1. 打开Xcode 菜单: Product &gt; Scheme &gt; Edit Scheme
-  2. 在 Environment Variables 选项中添加`key-value： OS_ACTIVITY_MODE = disable`
+* Ignore it and it won't affect using the components. \(recommended\)
+* Modify configuration
+  1. Open Xcode menu: Product &gt; Scheme &gt; Edit Scheme
+  2.  Add `key-value： OS_ACTIVITY_MODE = disable`in Environment Variables. 
 
-## 3. H5页面嵌入Android App方案 <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;android-app&#x65B9;&#x6848;"></a>
+## 3. H5 page embedding in Android <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;android-app&#x65B9;&#x6848;"></a>
 
-### 3.1. webview打开图库并获取android文件图片 <a id="webview&#x6253;&#x5F00;&#x56FE;&#x5E93;&#x5E76;&#x83B7;&#x53D6;android&#x6587;&#x4EF6;&#x56FE;&#x7247;"></a>
+### 3.1. Web-view opens the gallery and acquires pictures from android files <a id="webview&#x6253;&#x5F00;&#x56FE;&#x5E93;&#x5E76;&#x83B7;&#x53D6;android&#x6587;&#x4EF6;&#x56FE;&#x7247;"></a>
 
-**【示例】**
+【EXAMPLE】
 
-1. 初始化webview
+1.web-view initialization
 
 ```text
 private static final int FILE_SELECT_CODE = 0;
@@ -95,7 +93,7 @@ private ValueCallback<Uri[]> mUploadCallbackAboveL;//回调图片选择，5.0以
     webView.loadUrl("xxxxxxxx");
 ```
 
-1. 继承WebChromeClient ，根据android不同版本不同处理
+2.Inherit WebChromeClient and process it differently according to different versions of Android.
 
 ```text
 private class MyWebChromeClient extends WebChromeClient {
