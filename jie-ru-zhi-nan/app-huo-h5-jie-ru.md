@@ -1,20 +1,22 @@
-# APP或H5接入
+# APP or H5
 
-## 1. H5网站接入
+## 1. H5
 
-如果您拥有自己设计的网页图标 / 样式 / 按钮， 您也可以将链接作为独立页面嵌入您的网页，让客户直接点击跳转成对话页面。
+If you have your own designed web page icons/styles/buttons, you can also embed links into your web page as independent pages, allowing customers to click directly to jump to a dialogue page.
 
-* **操作指引：系统管理 -&gt; 机器人配置 -&gt; 移动网站接入**
+**STEPS: System management -&gt; Bots management -&gt; Mobile web access**
 
-![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbotdev-2019-11-15-14_07_46.jpg)
+![](../.gitbook/assets/image%20%283%29.png)
 
-企业可以根据自己的需要将链接直接嵌入在网页的一些位置上。即可直接跳转到客服咨询页面
+You can embed the link directly in your own web page according to your needs, then you can click the button and directly jump to the customer service page.
 
-**\[ 移动网页接入样例 \]（点击智能客服后为对话页面）**
+\[Mobile Web Access Sample\]
 
 ![](../.gitbook/assets/screencapture-chatbot-myqcloud-chatbot-h5-2019-11-15-14_08_56.png)
 
-## 2. H5页面嵌入iOS App方案 <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;ios-app&#x65B9;&#x6848;"></a>
+## 2. H5 page embeddingH5页面嵌入iOS App方案 <a id="h5&#x9875;&#x9762;&#x5D4C;&#x5165;ios-app&#x65B9;&#x6848;"></a>
+
+Embedding iOS App Scheme in H5 Page
 
 ### 2.1. 工程配置 <a id="&#x5DE5;&#x7A0B;&#x914D;&#x7F6E;"></a>
 

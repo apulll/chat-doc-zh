@@ -4,19 +4,31 @@
 ## Introduction
 {% endhint %}
 
-Tencent Multilingual Intelligent Customer Service is an enterprise service tool developed by Tencent International Business Group based on advanced AI deep learning algorithm. It supports Chinese, English, Thai and other languages to serve international customers. Relying on Tencent's strong technical foundation, it helps enterprises to improve efficiency and save costs. Also, it can classify and analyze man-machine dialogue, providing data for decision-makers.
+Tencent Multilingual Intelligent Customer Service Robot is an enterprise service tool developed by Tencent International Business Group. It supports Chinese, English, Thai and other languages to serve international customers. Based on Tencent's advanced AI deep learning algorithm and strong technical foundation, it helps enterprises to improve efficiency and save costs.  Also, it can classify and analyze man-machine dialogue, providing visualized data information for decision-makers.
 
 {% hint style="success" %}
-## 核心功能
+## Core function
 {% endhint %}
 
-智能机器人主要有三个主要的功能模块：**1.智能机器人**，基于自然语言识别技术和智能训练的机器人，能够精确解答用户的常见问题，减少人工服务的需求，降低企业的成本。**2.人工客服**，在机器人无法解答用户的问题，或者用户主动发起人工服务时，客服工作台可以支持客服人员进行人工回复，快速解决用户难题。**3.统计数据，**可以通过后台查看机器人和人工客服数据，及时了解问题处理的情况。并通过后台的数据归类分析，为决策提供依据，进行精准营销和问题并发的前期准备。
+Intelligent customer service robot has three main functions: 
+
+1. **Intelligent robots.** Based on natural language recognition technology and intelligent training, it can accurately answer users' common questions, reducing the demands for manual services and the cost of enterprises. 
+
+2. **Manual customer service**. When the robot cannot answer the user's questions or the user initiates manual service voluntarily, the customer service workbench can support the human customer service to make manual reply and quickly solve user's problems. 
+
+3. **Statistical data.**  Robot and human customer service dialogue data are presented in the backend platform. You can timely realize the situation of the problem solving. Also through the data classification and analysis, it provides the basis for decision-making, and carries out accurate marketing and preliminary preparation for concurrent problems.
 
 {% hint style="success" %}
-## 我们的优势
+## Our strength
 {% endhint %}
 
- **1.多语言**，支持中文、英文、泰文等多语言，后续将完善日语、马来语、汉语等功能。**2.智能**，大数据深度学习以及NPL技术为智能客服提供强有力的技术支撑。**3.高效**，相似问题自动生成，问题数据归类分析，提升效率，为企业节约成本。**4.便捷**，快速便捷的多渠道接入方式，标准化执行方案，无需更多开发，方便易用。
+ 1. **Multilingual.** We ****support Chinese, English, Thai and Indonesian. We will improve Japanese, Malaysian, and other language in the future. 
+
+2. **Intelligent.** Deep learning of big data and NPL technology provide strong technical support for intelligent customer service. 
+
+3. **Efficient.** Automatically generate similar problems, classify and analyze the data, it can largely improve your efficiency and save costs for enterprises. 
+
+4. **Convenient.** We provide fast and convenient multi-channel access mode, and standardized implementation scheme, so that there is no need for secondary development.
 
 
 

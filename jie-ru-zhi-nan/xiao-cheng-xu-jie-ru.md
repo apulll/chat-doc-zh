@@ -1,8 +1,8 @@
 # Mini-program
 
-### WeChat miniprogram
+### WeChat mini-program
 
-> If you already have a WeChat mini-program certified by WeChat, just bind your WeChat mini-program to our Chatbot system, and you can easily handle inquiries from WeChat users with intelligent customer service robots.
+> If you already have a WeChat mini-program certified by WeChat, just bind your WeChat mini-program to our Chatbot system, and you can easily deal with the problems from WeChat users with intelligent customer service robots.
 
 #### Access process
 
