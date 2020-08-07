@@ -10,6 +10,8 @@
 
 1. 请先登录微信小程序管理后台，并跳转到 开发设置-》开发者ID-》复制 AppID\(小程序ID\) 和 AppSecret\(小程序密钥\) 。
 
+**注意：**如果此处有“重置”按钮，不要重置。需要询问之前获取AppSecret的人员索要AppSecret。如果重置，会导致之前获取的AppSecret失效。
+
 ![](../.gitbook/assets/screencapture-mp-weixin-qq-wxamp-devprofile-get-profile-2019-11-15-12_44_32.jpg)
 
 1. [点击](https://mp.weixin.qq.com/)：开发设置-》消息推送-》启用。 详见：[微信小程序开发文档](https://developers.weixin.qq.com/miniprogram/dev/component/web-view.html?search-key=web)。相关填写参数对照如下：
