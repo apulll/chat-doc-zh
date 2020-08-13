@@ -1,22 +1,22 @@
-# 智能训练
+# Intelligent training
 
-## **未知问题学习**
+## **Unknown questions learning**
 
-未知问题学习，是将机器人回答不了的问题总结提取出来，供管理员来完善问题答案，提升机器人回答的准确率。
+Unknown question learning is to summarize and extract the questions that the robot cannot answer, so that the administrator can improve the answer to the questions and improve the accuracy of the robot's answer.
 
 ![](../.gitbook/assets/tu-pian%20%282%29.png)
 
-选择添加为新问题，该问题将成为一条新的标准问题。选择「忽略」，则该问题将不再出现在未知问题列表中。
+Select Add, the question will become a new standard question. Select Ignore, the question will no longer appear in the list of unknown questions.
 
-## **不满意问题学习**
+## **Unsatisfied learning**
 
-不满意问题学习是针对用户不满意的回答超过5次的问题统计展示出来，管理员可以对不满意问题进行操作。「添加为新问题」则是将该问题编辑整理为新的标准问题，「答案纠错」则是将不满意的问题答案进行修改认证。「忽略」则该问题不会再出现在不满意问题中。
+Unsatisfied questions learning is to show the questions that are regarded as unsatisfied for more than 5 times, and administrators can operate on these dissatisfied questions. "Add as New Question" is to edit and sort out the question into a new standard question, while "Answer Correction" is to modify and authenticate the answers of unsatisfactory questions. "Ignore" means the question will no longer appear in the unsatisfied question list.
 
 ![](../.gitbook/assets/tu-pian%20%288%29.png)
 
-## **相似问法学习**
+## Similar questions learning
 
-相似问法，是将不在知识库标准问题中，也不在相似问题中，但是多次被用户提问的问题进行归类统计展示，管理员可以对相似问法的问题进行审核，「通过」则认为该提问符合对应知识点，正式成为相似问题。「忽略」则该提问不再出现在相似问法中。「添加为新问题」则将该提问设置为新的标准问题。
+The similar questions learning is to classify and statistically display the questions that are not in the standard questions of the knowledge base or in the similar questions, but have been asked by users for many times. Administrators can review these questions. "Pass" means that the question conforms to the corresponding knowledge points so that it can officially become similar question. "Ignore" means the question will no longer appear in this section. Add as New Question will set the question as a new standard question.
 
 ![](../.gitbook/assets/tu-pian%20%285%29.png)
 

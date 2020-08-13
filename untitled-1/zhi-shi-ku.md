@@ -1,32 +1,31 @@
-# 知识库
+# Knowledge base
 
-### **专业问答**
+### **Professional Q&As**
 
-专业问答是跟业务相关的知识储备，也是进行机器人训练的基础。知识库支持逐条添加或者批量添加。 「批量导入」时，首先下载批量上传模板，按照格式要求填写知识库，完成填写点击上传即可完成批量添加。批量导入模板的填写说明如下：
+Professional question and answer is a knowledge reserve related to business and is also the basis for robot training. The knowledge base supports uploading item-by-item or by batch. When you upload by batch, download the batch upload-template firstly, and then fill in the knowledge base according to the format requirements, and click the Upload. 
 
-| 项目 | 说明 |
+| Project | Illustration |
 | :--- | :--- |
-| 标准问题 | 标准问题是指跟业务相关的主要问题，标准问题越多，机器人回答准确率越高。 |
-| 分类 | 分类是指对于问题的类别进行归类，最多可以添加二级分类，比如：订单问题/退款 |
-| 答案 | 是指针对标准问题给出的答案，用户提问时将会得到该答案。 |
-| 相似问题 | 与标准问题的一些相似问法，用户提问这些相似问题，都将得到标准答案。 |
+| Standard | Standard questions refer to the main questions related to business. The more standard questions, the higher the accuracy of robot answers. |
+| Classification | Classification refers to classifying the categories of issues. Up to two levels of classification can be added, such as Order Issue/Refund |
+| Answer | The answer refers to the answer given to the standard question, which the user will get when asking questions. |
+| Similar questions | Some similar questions with standard questions, users will get standard answers if they ask these similar questions. |
 
-![&#x6279;&#x91CF;&#x5BFC;&#x5165;&#x6A21;&#x677F;&#x683C;&#x5F0F;](../.gitbook/assets/tu-pian%20%2813%29.png)
+![Template of batch upload](../.gitbook/assets/tu-pian%20%2813%29.png)
 
-批量导入后，将根据问题的分类在后台自动创建问题分类，可以按照分类来操作管理知识库。分类便于查询和管理知识库，同时也方便对于用户问题的统计分析。
+After batch import, problem classification will be automatically created in the background according to the classification of problems, and the knowledge base can be operated and managed according to the classification. Classification is convenient for querying and managing the knowledge base, and also convenient for statistical analysis of user problems.
 
 ![](../.gitbook/assets/tu-pian%20%2815%29.png)
 
-当需要对知识库的数据进行更新时，点击「编辑」，即可进入到问题编辑页面。 同时，支持对知识库数据的导出。
+When the data in the knowledge base needs to be updated, click "Edit" to enter the problem editing page. At the same time, it supports the export of knowledge base data.
 
-### 相似问题推荐
+### Similar questions recommendation
 
-相似问题推荐是根据导入的标准问题，通过机器算法，推荐出的相似问题，以便更好的提高机器人准确率。相似问题推荐功能入口如下图：
+Similar questions recommendation is a similar question recommended by machine according to the imported standard problem, so as to better improve the accuracy of the robot. The entry of similar problem recommendation function is shown in the following picture:
 
 ![](../.gitbook/assets/tu-pian%20%286%29.png)
 
-对于推荐的相似问题，可以采取以下操作，「编辑」「采纳」「忽略」：当认为推荐的相似问题不够准确时，可以进行编辑；当认为推荐的相似问题可以直接采纳时，就可以直接采纳为相似问题；当认为推荐的相似问题与标准问题差距过大，则可以点击忽略。  
-  
+For the recommended similar questions, the following operations can be taken: "edit", "adopt" and "ignore": when it is considered that the recommended similar questions are not accurate enough, edit can be carried out; When it is believed that the recommended similar questions can be directly adopted, they can be directly adopted as similar questions. When you think that the gap between the recommended similar questions and the standard questions is too large, you can click Ignore.
 
 ![](../.gitbook/assets/tu-pian%20%2819%29.png)
 

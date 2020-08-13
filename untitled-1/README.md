@@ -1,10 +1,10 @@
-# 知识库管理
+# Knowledge base management
 
-     知识库管理模块可以创建和管理知识库，为机器人提供基本的知识储备。
+The knowledge base management module can create and manage the knowledge base and provide basic knowledge reserve for robots.
 
-    **1.知识库，**是对于业务相关问题的管理操作。
+    **1.Knowledge base，i**s the management operation for business related problems。
 
-    **2.智能训练，**通过对未知问题、不满意问题、相似问题的完善，提升机器人回答的准确率。
+    **2.Intelligent training，**The accuracy of the robot's answers can be improved by perfecting the similar questions, unknown questions and unsatisfactory questions.
 
       
 
