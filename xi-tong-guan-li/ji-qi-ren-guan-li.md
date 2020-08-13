@@ -1,10 +1,10 @@
-# 机器人管理
+# Bots management
 
-## 机器人信息
+## Robot information
 
-可以对机器人名称进行编辑，编辑机器人名称后，在管理多台机器人时能够轻松识别不同的机器人。还可以为机器人添加备注。
+The name of the robot can be edited. After editing the name of the robot, different robots can be easily identified when managing multiple robots. You can also add comments for robots.
 
-![&#x673A;&#x5668;&#x4EBA;&#x4FE1;&#x606F;](../.gitbook/assets/tu-pian%20%2820%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 
   
 

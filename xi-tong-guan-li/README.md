@@ -1,4 +1,4 @@
-# 系统管理
+# System Management
 
-       系统管理模块可以对机器人进行备注设置、对人员进行账户和角色的配置，对人机对话时的欢迎语进行设置。
+The system management section can set comments on robots, configure accounts and roles for personnel, and set welcome words during man-machine dialogue.
 

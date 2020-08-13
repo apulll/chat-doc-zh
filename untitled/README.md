@@ -1,4 +1,4 @@
-# 客服工作台
+# Manual Service Workbench
 
-客服工作台是为客服提供进行人工服务的平台，客服可以在此处进行人工服务，同时也可以在此查看所有用户的会话记录。
+The customer service workbench is a platform that provides manual service for customer service. Customer service can perform manual service here and view the dialogue records of all users here.
 

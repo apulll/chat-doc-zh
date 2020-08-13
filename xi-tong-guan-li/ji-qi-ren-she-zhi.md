@@ -1,9 +1,9 @@
-# 机器人设置
+# Bots settings
 
-## 机器人设置  
+## Bot settings
 
 {% hint style="info" %}
-  机器人设置，是对机器人对话时的欢迎语等提示进行相关的配置。
+  Configure the welcome words and other prompts when the robot talks.
 {% endhint %}
 
 | 项目名称 | 展示用途 |

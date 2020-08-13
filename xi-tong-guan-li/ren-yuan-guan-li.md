@@ -1,14 +1,14 @@
-# 人员管理
+# Personnel management
 
-## 账号管理
+## Account management
 
-账号管理中可以新增账号，新增账号除了需要设置账号密码和姓名外，还要对账号进行角色配置，不同的角色决定了不同的权限。
+In account management, you can add an account. In addition to setting the account password and name, you also need to configure the role of the account. Different roles determine different permissions to the system.
 
 ![](../.gitbook/assets/tu-pian%20%283%29.png)
 
-## 角色管理
+## Role management
 
-角色管理中可以查看已存在的角色权限，同时可以新增角色。目前后台的权限类型分为管理员和客服人员，根据不同的角色类型来选择不同的角色权限。
+In role management, you can view existing role permissions and add roles at the same time. At present, the background permission types are divided into administrators and customer service personnel, and different role permissions are selected according to different role types.
 
 ![](../.gitbook/assets/tu-pian%20%2812%29.png)
 
