@@ -12,10 +12,10 @@
   * [Dialogue record](untitled/hui-hua-ji-lu.md)
 * [System Management](xi-tong-guan-li/README.md)
   * [Bots management](xi-tong-guan-li/ji-qi-ren-guan-li.md)
-  * [Personnel management](xi-tong-guan-li/ren-yuan-guan-li.md)
   * [Bots settings](xi-tong-guan-li/ji-qi-ren-she-zhi.md)
-* [运营数据](yun-ying-shu-ju/README.md)
-  * [机器人数据](yun-ying-shu-ju/ji-qi-ren-shu-ju.md)
+* [Operational Data](yun-ying-shu-ju/README.md)
+  * [Bots data](yun-ying-shu-ju/ji-qi-ren-shu-ju.md)
   * [人工客服数据](yun-ying-shu-ju/ren-gong-ke-fu-shu-ju.md)
   * [数据分析](yun-ying-shu-ju/shu-ju-fen-xi.md)
+* [Account management](account-management.md)
 

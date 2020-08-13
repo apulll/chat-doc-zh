@@ -1,22 +1,24 @@
-# 机器人数据
+# Bots data
 
-## 今日数据
+## Today's data
 
-今日数据是指从当天0点开始到24点，每个时段的机器人会话数量数量趋势。图表直观展示各个时间段的数量趋势。
+今日数据是指从当天0点开始到24点，每个时段的机器人会话数量趋势。图表直观展示各个时间段的数量趋势。
 
-![](../.gitbook/assets/tu-pian%20%2810%29.png)
+Today's data refers to the trend of the times of sessions in each period from 0: 00 to 24: 00 on the same day. The chart visually shows the quantitative trend of each time period.
 
-「会话」今日当前接入会话数，是指当日用户会话的数量。
+![](../.gitbook/assets/image%20%285%29.png)
 
-「提问」提问数，是指用户提问的问题数量，与知识库无关的提问不计算在内；匹配数，是指用户提问的问题直出答案的数量；匹配率，即匹配数与提问数量的比。
+1.Conversations show the times of sessions. Requests show how many times our API has been requested. Average request time shows the time assumption each request takes.
 
-「满意度评价」满意度评价是指用户对于答案评价满意量的占比。评价数即为用户评价的答案总数，满意数即为用户的评价中选择满意的数量，满意率及满意数与评价数的比。
+2.Questions refer to the number of questions asked by users, excluding questions unrelated to the knowledge base. Matched answers refers to the times that answers are directly showed up.  Matching rate, that is, the ratio of the number of matched answers to the number of questions asked.
 
-## 历史数据
+3.Rated conversation refers to the sum of questions that are rated by the users. Satisfaction shows the number of answers that are rated satisfied. Satisfaction rate shows the ratio of satisfactions to the rated conversation.
 
-历史数据是在历史机器人对话的数据趋势，以天为单位展示历史会话走势。
+## Historical data
 
-![](../.gitbook/assets/tu-pian%20%2821%29.png)
+Historical data is the data trend of historical robot sessions, showing the trend of historical conversation in days.
 
-可以任意选择日期进行历史会话趋势的查看，「会话」、「提问」、「满意度评价」的定义与今日数据的定义相同。
+![](../.gitbook/assets/image%20%286%29.png)
+
+You can choose any date to view the historical session trend. The definitions of "Conversations", "Questions" and "Satisfaction Evaluation" are the same as those of today's data.
 

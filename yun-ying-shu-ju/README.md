@@ -1,4 +1,4 @@
-# 运营数据
+# Operational Data
 
-运营数据是针对机器人会话和人工会话的数量趋势、准确率、服务耗时等关键指标的分析展示，后续将增加问题分类统计和关键词分类统计等功能模块。
+Operational data is an analysis and display of key indicators such as the number trend, accuracy rate and service time consumption of robot-human dialogue. Other functions such as problem classification statistics and keyword classification statistics will be added in the future.
 

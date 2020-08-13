@@ -6,9 +6,13 @@
   Configure the welcome words and other prompts when the robot talks.
 {% endhint %}
 
-| 项目名称 | 展示用途 |
+**Conversation settings**
+
+| Section | Application |
 | :--- | :--- |
-| 欢迎语 | 进入机器人会话时，用户最先看到的问候语。 |
+| Greetings | When entering the conversation, the user will first see the greeting. |
+| First-level menu |  |
+| Second-level menu |  |
 | 转人工 | 是指用户发起人工服务时，需要输入的指令。 |
 | 转人工失败 | 是指转人工服务失败时，用户看到的提示语。 |
 | 转人工成功 | 是指转人工服务成功时，用户看到的提示语。 |
@@ -24,6 +28,4 @@
 | 为用户反馈答谢 | 当用户评价答案后收到的提示。例如：感谢的您的反馈~ |
 
 具体的配置可以参照下图中的语言提示实例进行配置。
-
-![](../.gitbook/assets/tu-pian%20%2818%29.png)
 

@@ -6,7 +6,7 @@ If you have your own designed web page icons/styles/buttons, you can also embed 
 
 **STEPS: System management -&gt; Bots management -&gt; Mobile web access**
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 You can embed the link directly in your own web page according to your needs, then you can click the button and directly jump to the customer service page.
 
