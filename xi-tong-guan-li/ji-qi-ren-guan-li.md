@@ -4,7 +4,7 @@
 
 The name of the robot can be edited. After editing the name of the robot, different robots can be easily identified when managing multiple robots. You can also add comments for robots.
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
   
 

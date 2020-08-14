@@ -8,6 +8,7 @@
 * [Knowledge base management](untitled-1/README.md)
   * [Knowledge base](untitled-1/zhi-shi-ku.md)
   * [Intelligent training](untitled-1/zhi-neng-xun-lian.md)
+* [Homepage](shu-ju-fen-xi.md)
 * [Manual Service Workbench](untitled/README.md)
   * [Dialogue record](untitled/hui-hua-ji-lu.md)
 * [System Management](xi-tong-guan-li/README.md)
@@ -15,7 +16,6 @@
   * [Bots settings](xi-tong-guan-li/ji-qi-ren-she-zhi.md)
 * [Operational Data](yun-ying-shu-ju/README.md)
   * [Bots data](yun-ying-shu-ju/ji-qi-ren-shu-ju.md)
-  * [人工客服数据](yun-ying-shu-ju/ren-gong-ke-fu-shu-ju.md)
-  * [数据分析](yun-ying-shu-ju/shu-ju-fen-xi.md)
+  * [Agent data](yun-ying-shu-ju/ren-gong-ke-fu-shu-ju.md)
 * [Account management](account-management.md)
 

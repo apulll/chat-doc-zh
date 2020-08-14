@@ -1,22 +1,20 @@
-# 人工客服数据
+# Agent data
 
-## 今日数据 <a id="jin-ri-shu-ju"></a>
+## Today's data <a id="jin-ri-shu-ju"></a>
 
-今日数据是指从当天0点开始到24点，每个时段的人工服务会话数量数量趋势。图表直观展示各个时间段的数量趋势。
+Today's data shows the trend of times of human customer service within a day.
 
-![](../.gitbook/assets/tu-pian%20%2817%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
- 「会话」今日当前接入会话数，是指当日有人工会话的数量。
+ 「Conversations」shows the total time of human customer service within a day and how many conversations they close.
 
- 「客服」是指当前在线的客服数量。
+ 「Agent」shows the number of online agents.
 
- 「会话时长」是指接入人工客服的用户，平均的会话时长，从该数据可以查看解决人工问题的效率和耗时。
+ 「Conversation duration」shows the average conversation duration of human customer service, from which you can view the efficiency of their work.
 
-## 历史数据 <a id="li-shi-shu-ju"></a>
-
- 历史数据是指人工服务对话的数据趋势，以天为单位展示历史会话数据。
+## Historical data <a id="li-shi-shu-ju"></a>
 
 ![](../.gitbook/assets/tu-pian%20%281%29.png)
 
-可以任意选择日期进行历史会话趋势的查看，「会话」、「会话时长」的定义与今日数据的定义相同。
+You can choose any date to view the historical session trend. The definitions of "Session" and "Session Duration" are the same as those of today's data.
 

@@ -2,8 +2,6 @@
 
 ## Today's data
 
-今日数据是指从当天0点开始到24点，每个时段的机器人会话数量趋势。图表直观展示各个时间段的数量趋势。
-
 Today's data refers to the trend of the times of sessions in each period from 0: 00 to 24: 00 on the same day. The chart visually shows the quantitative trend of each time period.
 
 ![](../.gitbook/assets/image%20%285%29.png)
@@ -18,7 +16,7 @@ Today's data refers to the trend of the times of sessions in each period from 0:
 
 Historical data is the data trend of historical robot sessions, showing the trend of historical conversation in days.
 
-![](../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 You can choose any date to view the historical session trend. The definitions of "Conversations", "Questions" and "Satisfaction Evaluation" are the same as those of today's data.
 
