@@ -1,12 +1,12 @@
 # API document
 
-{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
+{% api-method method="post" host="http://chatbot.myqcloud.com/" path="dev/svrapi/ask" %}
 {% api-method-summary %}
-msg for chat
+msg for chatddsad
 {% endapi-method-summary %}
 
 {% api-method-description %}
-This endpoint allows you to get free cakes.  
+
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -45,7 +45,16 @@ Cake successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```
-{    "name": "Cake's name",    "recipe": "Cake's recipe name",    "cake": "Binary cake"}
+{
+  "code": 0,
+  "msg": "",
+  "replyType": 0,
+  "replyText": "replyType=1,reply content",
+  "replyMenu": [
+    "replyType=2,reply list content",
+    "replyType=2,reply list content"
+  ]
+}
 ```
 {% endapi-method-response-example %}
 
@@ -55,7 +64,13 @@ Could not find a cake matching this query.
 {% endapi-method-response-example-description %}
 
 ```
-{    "message": "Ain't no cake like that."}
+{
+  "code": 1,
+  "msg": "err msg",
+  "replyType": 0,
+  "replyText": "",
+  "replyMenu": []
+}
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
