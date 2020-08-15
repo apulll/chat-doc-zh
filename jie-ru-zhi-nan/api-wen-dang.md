@@ -2,7 +2,7 @@
 
 {% api-method method="post" host="http://chatbot.myqcloud.com/" path="dev/svrapi/ask" %}
 {% api-method-summary %}
-msg for chatddsad
+msg for chat
 {% endapi-method-summary %}
 
 {% api-method-description %}
