@@ -10,21 +10,21 @@
 
 | Section | Application |
 | :--- | :--- |
-| Greetings | When entering the conversation, the user will first see the greeting. |
+| Greetings | When entering the conversation, the user will first see the greetings. |
 | First-level menu |  |
 | Second-level menu |  |
-| 转人工 | 是指用户发起人工服务时，需要输入的指令。 |
-| 转人工失败 | 是指转人工服务失败时，用户看到的提示语。 |
-| 转人工成功 | 是指转人工服务成功时，用户看到的提示语。 |
-| 关键字列表头部语 | 是当用户提问关键词与多个问题相关时，提示用户选择的提示语。 |
-| 一级分类头部语 | 是当用户提问的问题与知识库无关时或者机器人不能回答时，给用户的提示。 |
-| 答案尾部选项1 | 是针对正面评价的提示文案，例如可以设置为：有用、好评、赞。 |
-| 答案尾部选项2 | 是针对负面评价的提示文案，例如可以设置为：无用、差评、踩。 |
-| 答案尾部语 | 是指引导用户对于答案进行评价的提示语。 |
-| 分数太低 | 是指用户提问的关键词与知识库无关或者相关性很小，在问题尾部出现的提示语。 |
-| 问题列表头部语 | 是指用户提问出现多个相关问题，不能直出答案时，提示用户选择问题的提示语。 |
-| 用户输入错误 | 用户输入的内容与知识库完全无关时，对于用户的提示，引导用户输入详细内容。 |
-| 二级分类头部语 | 用户通过一级菜单进入多轮会话时，对于用户的提示。 |
+| Human service transfer | Refers to the instruction that the user needs to input when initiating the human service |
+| Transfer failed | Refers to prompt when the transfer to human service is failed |
+| Transfer succeed | Refers to prompt when the transfer to human service is succeed |
+| Keyword list header language | Refers to words that prompt the user to choose when the user asks a keyword related to multiple questions |
+| First-level classification header language | Refers to prompt when the user asks a question that is not related to the knowledge base or the robot cannot answer |
+| 答案尾部选项1 | Refers to prompt towards the positive assessment |
+| 答案尾部选项2 | Refers to prompt towards the negative assessment |
+| 答案尾部语 | Refers to prompt that lead the users to make an assessment towards the answer. |
+| Low score | Refers to prompt when users' question is not related to the knowledge base or the relativity is low |
+| 问题列表头部语 | Refers to words that prompt the user to choose when the user asks a question that matches multiple questions and the answer is uncertain |
+| Typo | Refers to prompt that lead the users to input detailed content when the current content is not related to knowledge base at all |
+| Second-level classification header language | Refers to the prompt when user enter multi-round conversation through first-level category |
 | 为用户反馈答谢 | 当用户评价答案后收到的提示。例如：感谢的您的反馈~ |
 
 具体的配置可以参照下图中的语言提示实例进行配置。
